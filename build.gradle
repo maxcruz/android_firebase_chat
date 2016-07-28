@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+        classpath 'com.google.gms:google-services:3.0.0'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    compileSdkVersion = 24
+    buildToolsVersion = '24.0.0'
+    minSdkVersion = 16
+    targetSdkVersion = 24
+    supportLibraryVersion = '24.0.0'
+    firebaseVersion = '9.0.0'
+    circleImageViewVersion = '2.1.0'
+    butterKnifeVersion = '8.1.0'
+    glideVersion = '3.7.0'
+    eventbusVersion = '3.0.0'
+}
