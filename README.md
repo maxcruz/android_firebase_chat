@@ -6,4 +6,10 @@ Para que el proyecto funcione, se debe crear un proyecto en [Firebase](https://w
 
 Para agregar Firebase a tu app: https://firebase.google.com/docs/android/setup
 
-![1 - Login](/screenshots/1-login.png "1 - Login")
+![](/screenshots/1-login.png =100x)
+
+![](/screenshots/2-add_contact.png =100x)
+
+![](/screenshots/3-user_list.png =100x)
+
+![](/screenshots/4-chat.png =100x)
