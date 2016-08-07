@@ -2,6 +2,8 @@
 
 Un chat simple en Android utilizando Firebase como base de datos de tiempo real para intercambiar los mensajes y para la autenticación de los usuarios.
 
+![Chat](./screenshots/4-chat.png "Chat entre usuarios")
+
 Para que funcione, se debe crear un proyecto en [Firebase](https://www.firebase.com/) y activar Android para generar un archivo __google-services.json__, este archivo se copia dentro de la carpeta app
 
 Para agregar Firebase a tu app: https://firebase.google.com/docs/android/setup
@@ -13,6 +15,8 @@ La capa de presentación se organiza utilizando [MVP](http://antonioleiva.com/mv
 Las imagenes de perfil de los usuarios se obtienen de Gravatar utilizando la librería [Glide](https://github.com/bumptech/glide).
 
 Los eventos se envían entre las capas de la arquitectura usando [EvenBus] (https://github.com/greenrobot/EventBus).
+
+Para la autenticación, crear usuarios y enviar mensajes entre las aplicaciones se utiliza [Firebase] (https://www.firebase.com)
 
 TODO:
 * Pruebas
